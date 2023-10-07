@@ -64,21 +64,21 @@ input{
     color: #999;
 
 }
-.submit{
+.submiti{
     
     margin-left: 50%;
     transform: translateX(-60%);
     border-radius: 10px;
     
 }
-.submit button{
+.submiti input{
     font-size: 15px;
     background: rgb(51, 160, 51);
     width: 200px;
     border-radius: 10px;
     padding: 7px 0;
 }
-button:hover {
+input:hover {
     opacity: 0.8;
   }
   .pass{
