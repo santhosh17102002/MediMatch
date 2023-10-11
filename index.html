@@ -5,29 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        *{
+            margin:0;
+        }
+        body{
+            background-image: url("images/med.jpg");
+            
+            background-repeat: repeat;
+            background-size: cover;
+            opacity: 1;
+        }
+        
+            
+        .navbar{
+            padding: 20px;;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(30, 92, 92);
+        }
+        #hello{
+            display: flex;
+            flex-direction: row;
+        }
+        #hello a{
+            margin-right: 30px;
+            padding: 20px;
+            text-decoration: none;
+            color:white;
+            font-size: 18px;
+            
+        }
+        #hello a:hover{
+            background-color: rgb(33, 117, 99);
+            transition: .5s;
+            border-radius: 10px;
+        }
+        .second{
+            align-items: center;
+            
+            margin-top: 40px;
+            
+        }
+        
+
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src="images/logo.png" >
+                <img src="images/Medlogo.png" style="width:30%;" >
             </div>
             
             <div class="out">
                 <nav id="hello">
-                    <ul>
-                        <li><a href="index.html">HOME</a></li>
-                       <li><a href="contact.html">CONTACT</a></li>
-                        <li><a href="login.html">LOGIN</a></li>
-                    </ul>
+                        <a href="index.html">HOME</a>
+                       <a href="contact.html">CONTACT</a>
+                        <a href="login.html">LOGIN</a>
+                    
                 </nav>
             </div>
             
         </div>
         <div class="second">
-            <script async src="https://cse.google.com/cse.js?cx=30a5c8fba9e834917">
+            
+            
+            <div class="gcse-search" style="margin-top: 100px ;">
+                <script async src="https://cse.google.com/cse.js?cx=30a5c8fba9e834917">
             </script>
-            <div class="gcse-search"></div>
+            </div>
         </div>
 
     </div>
