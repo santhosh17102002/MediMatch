@@ -2,7 +2,7 @@
     margin:0;
 }
 body{
-    background-image: url("../images/med.jpg");
+    background-image: url("../../images/med.jpg");
     
     background-size: cover;
     opacity: 1;
@@ -39,38 +39,37 @@ body{
     transition: .5s;
     border-radius: 10px;
 }
-.main{
-    width: 100%;
+.coldop{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 50px;
     
-    flex-wrap: wrap;
+
 }
-.product{
-    height: 300px;
-    width: 23%;
-    margin-top: 100px;
-    border: 1px solid black;
-    background: white;
-    border-radius: 25px;
-    
+.first img{
+    width: 400px;
+
+}
+.second{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 10px;
-    transition: transform 0.5s;
+    background: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    border-radius: 25px;
+    margin-left: 25px;
 }
-
-.product:hover{
-    transform: translateY(-15px);
-}
-.product a{
+.intro{
+    width: 80%;
     display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-.product img{
-    width: 25%;
-
+    flex-direction: column;
+    background: white;
+    margin-top: 2%;
+    margin-left: 100px;
+    padding: 25px;
+    border-radius: 25px;
 }
