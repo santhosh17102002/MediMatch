@@ -39,7 +39,11 @@ body{
     transition: .5s;
     border-radius: 10px;
 }
-
+.searchbari{
+    margin: 1% 30%;
+    width: 50%;
+    height: 50px;
+}
 .about{
     background: rgb(9, 41, 40);
 }
@@ -79,4 +83,9 @@ body{
 }
 .pic img{
     width: 800px;
+}
+#searchInput{
+    width: 75%;
+    height: 30px;
+    border-radius: 15px;
 }
