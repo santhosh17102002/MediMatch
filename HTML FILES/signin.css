@@ -84,3 +84,8 @@ input:hover {
   .pass{
     margin: 20px 0;
   }
+  .sign{
+    display: inline-block;
+    width: 100%;
+    color: black;
+  }

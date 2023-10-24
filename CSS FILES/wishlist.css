@@ -39,17 +39,9 @@ body{
     transition: .5s;
     border-radius: 10px;
 }
-.gdsc-search{
-    align-items: center;
-    border: 1px solid black;
-    background-color: transparent;
-    color: transparent;
-    
-}
-.second
-{
-    margin-top: 100px;
-}
 .NEWWISHES{
-    margin: 50% 50%;
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: xx-large;
+    color: blue;
 }
