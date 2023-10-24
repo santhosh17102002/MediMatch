@@ -88,4 +88,5 @@ input:hover {
     display: inline-block;
     width: 100%;
     color: black;
+    border: 1px solid green;
   }
