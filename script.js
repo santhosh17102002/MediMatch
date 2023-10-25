@@ -4,7 +4,22 @@ const conditions = {
     "fever": "HTML FILES/fever.html",
     "medicines" : "HTML FILES/medicinelist.html",
     
-    "medicine" : "HTML FILES/medicinelist.html"
+    "medicine" : "HTML FILES/medicinelist.html",
+    "chestoncold" : "HTML FILES/Products/chestoncold.html",
+    
+    "coldover P liquid" : "HTML FILES/Products/coldoverp.html",
+    
+    "coldover orange" : "HTML FILES/Products/coldover orange.html",
+    
+    "coldmine" : "HTML FILES/Products/coldmine.html",
+    
+    "dcold" : "HTML FILES/Products/dcold.html",
+    
+    "namcold" : "HTML FILES/Products/namcold.html",
+    
+    "sumocold" : "HTML FILES/Products/sumocold.html",
+    
+    "chestoncold liquid" : "HTML FILES/Products/chestonliq.html"
 };
 
 // Function to handle search when clicking the button or pressing Enter
