@@ -1,7 +1,6 @@
-// JavaScript code in script.js
+
 const conditions = {
     "cold": "HTML FILES/cold.html",
-    "fever": "HTML FILES/fever.html",
     "medicines" : "HTML FILES/medicinelist.html",
     
     "medicine" : "HTML FILES/medicinelist.html",
@@ -28,7 +27,7 @@ function search() {
     if (conditions.hasOwnProperty(query)) {
         window.location.href = conditions[query];
     } else {
-        alert("No matching condition found.");
+        alert("No matching search found.");
         
         window.location.href = "HTML FILES/globals.html";
 
