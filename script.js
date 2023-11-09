@@ -40,7 +40,6 @@ document.getElementById("searchInput").addEventListener("keyup", function(event)
     if (event.key === "Enter") {
         // Cancel the default action, if needed
         event.preventDefault();
-        // Trigger the search function
         search();
     }
 });
