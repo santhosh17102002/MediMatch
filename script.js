@@ -36,7 +36,7 @@ function search() {
 
 // Allow the search to be triggered when the Enter key is pressed
 document.getElementById("searchInput").addEventListener("keyup", function(event) {
-    // Number 13 represents the Enter key
+    
     if (event.key === "Enter") {
         // Cancel the default action, if needed
         event.preventDefault();
